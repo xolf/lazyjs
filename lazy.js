@@ -32,8 +32,4 @@ $( document ).ready( function() {
         });
     }
 
-    bla = {"animation": true};
-
-    LazyJs(bla);
-
 });

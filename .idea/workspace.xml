@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8f98e1-55bd-46a7-91c3-882bf120e70b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/1/data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1/data.php" afterPath="$PROJECT_DIR$/example/1/data.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1/index.html" afterPath="$PROJECT_DIR$/example/1/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lazy.js" afterPath="$PROJECT_DIR$/lazy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lazyjs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lazy.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lazy.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lazy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26929983">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state vertical-scroll-proportion="-7.090909">
+              <caret line="26" column="417" selection-start-line="26" selection-start-column="417" selection-end-line="26" selection-end-column="417" />
               <folding />
             </state>
           </provider>
@@ -40,18 +39,18 @@
       <file leaf-file-name="data.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/1/data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.5">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.61734694">
+              <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -75,9 +74,9 @@
       <list>
         <option value="$PROJECT_DIR$/example/1/data1" />
         <option value="$PROJECT_DIR$/example/1/data" />
+        <option value="$PROJECT_DIR$/lazy.js" />
         <option value="$PROJECT_DIR$/example/1/data.php" />
         <option value="$PROJECT_DIR$/example/1/index.html" />
-        <option value="$PROJECT_DIR$/lazy.js" />
       </list>
     </option>
   </component>
@@ -229,24 +228,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/example/1/data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.5">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lazy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26929983">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state vertical-scroll-proportion="-7.090909">
+          <caret line="26" column="417" selection-start-line="26" selection-start-column="417" selection-end-line="26" selection-end-column="417" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61734694">
+          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
           <folding />
         </state>
       </provider>

@@ -4,10 +4,8 @@ $( document ).ready( function() {
     Calls a specific URL
     */
     function callTo(url, element) {
-        console.log('Called');
         $.get(url, function( result ){
             $( element ).html( result );
-            console.log('Finished');
         });
     }
 

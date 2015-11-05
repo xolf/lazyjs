@@ -14,6 +14,7 @@ $( document ).ready( function() {
     Send us some Arguments!
      */
     function LazyJs(arg){
+        if(arg.debugging) console.log('lazyjs loaded');
         var LazyUrl;
 
         //Searches for some LazyJS container

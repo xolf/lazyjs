@@ -1,15 +1,22 @@
-var LazyUrl;
+$( document ).ready( function() {
 
-bla = {"animation": true};
+    /*
+    Calls a specific URL
+    */
+    function callTo(url, element) {
+        console.log('Called');
+        $.get(url, function( result ){
+            $( element ).html( result );
+            console.log('Finished');
+        });
+    }
 
-LazyJs(bla);
-/*
-Enables Lazy Js
-Send us some Arguments!
- */
-function LazyJs(arg){
-
-    $( document ).ready( function() {
+    /*
+    Enables Lazy Js
+    Send us some Arguments!
+     */
+    function LazyJs(arg){
+        var LazyUrl;
 
         //Searches for some LazyJS container
         $('.lazyjs').each( function() {
@@ -22,10 +29,13 @@ function LazyJs(arg){
 
             //Collects the URL from the LazyJS element
             LazyUrl = $( this ).attr( 'data-origin' );
-            $.ajax({url: LazyUrl,async: true, success: function( result ){
-                $( element ).html( result );
-            }});
+            callTo(LazyUrl, element);
 
         });
-    });
-}
+    }
+
+    bla = {"animation": true};
+
+    LazyJs(bla);
+
+});

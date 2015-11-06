@@ -25,7 +25,9 @@ function LazyJs(arg) {
         var element = $(this);
 
         //Displays the loading animation
-        if (arg.animation) $(element).html('<div class="windows8"><div class="wBall" id="wBall_1"><div class="wInnerBall"' + styleCss + '></div></div><div class="wBall" id="wBall_2"><div class="wInnerBall"' + styleCss + '></div></div><div class="wBall" id="wBall_3"><div class="wInnerBall"' + styleCss + '></div></div><div class="wBall" id="wBall_4"><div class="wInnerBall"' + styleCss + '></div></div><div class="wBall" id="wBall_5"><div class="wInnerBall"' + styleCss + '></div></div></div>');
+        if (arg.animation == 'windows8') $(element).html('<div class="windows8"><div class="wBall" id="wBall_1"><div class="wInnerBall"' + styleCss + '></div></div><div class="wBall" id="wBall_2"><div class="wInnerBall"' + styleCss + '></div></div><div class="wBall" id="wBall_3"><div class="wInnerBall"' + styleCss + '></div></div><div class="wBall" id="wBall_4"><div class="wInnerBall"' + styleCss + '></div></div><div class="wBall" id="wBall_5"><div class="wInnerBall"' + styleCss + '></div></div></div>');
+        if (arg.animation == 'blockroll') $(element).html('<div class="blockRoll"><div id="block1" class="block"' + styleCss + '></div><div id="block2" class="block"' + styleCss + '></div><div id="block3" class="block"' + styleCss + '></div><div id="block4" class="block"' + styleCss + '></div><div id="block5" class="block"' + styleCss + '></div><div id="block6" class="block"' + styleCss + '></div><div id="block7" class="block"' + styleCss + '></div><div id="block8" class="block"' + styleCss + '></div><div id="block9" class="block"' + styleCss + '></div></div>');
+
 
         //Collects the URL from the LazyJS element
         LazyUrl = $(this).attr('data-origin');

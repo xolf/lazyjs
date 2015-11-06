@@ -34,6 +34,7 @@ Some available animatios are:
 
 - `windows8`
 - `blockroll`
+- `thecube`
 
 
 #### Technical stuff

@@ -13,5 +13,5 @@ curl_setopt_array($curl, array(CURLOPT_RETURNTRANSFER => 1, CURLOPT_URL => $url,
 $resp = curl_exec($curl);
 $time = round(1000 * (microtime(true) - $start));
 echo '<h4>Time: ' . $time . 'ms</h4>
-<h3>' . $url . '</h3>' . htmlspecialchars($resp);
+<b>' . $url . '</b><br>Content-Length: ' . strlen($resp);
 curl_close($curl);

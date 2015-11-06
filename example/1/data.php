@@ -1,4 +1,6 @@
 <?php
+
+$start = microtime(true);
 $urls = [
     'http://treehouse.com',
     'http://gryme.xolf.info/p/gryme',
@@ -9,5 +11,7 @@ $url = $urls[rand(0,count($urls) - 1)];
 $curl = curl_init();
 curl_setopt_array($curl, array(CURLOPT_RETURNTRANSFER => 1, CURLOPT_URL => $url, CURLOPT_USERAGENT => 'xolf - Bot v0.1'));
 $resp = curl_exec($curl);
-echo '<h3>' . $url . '</h3>' . htmlspecialchars($resp);
+$time = round(1000 * (microtime(true) - $start));
+echo '<h4>Time: ' . $time . 'ms</h4>
+<h3>' . $url . '</h3>' . htmlspecialchars($resp);
 curl_close($curl);

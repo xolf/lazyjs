@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>LazyJS - Example</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../bootstrap.css" rel="stylesheet">
+    <link href="../../lazyjs.css" rel="stylesheet">
 </head>
 <body>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="../../lazy.min.js"></script>
+<script src="../../jquery.js"></script>
+<script src="../../lazy.js"></script>
 <script>
-LazyJs({"animation": true});
+    $( document ).ready(function() {
+        LazyJs({"animation": true, "animationcolor": "#2980b9", "debugging" : true});
+    });
 </script>
 <div class="container">
     <div class="col-md-6">
